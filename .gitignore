@@ -1,10 +1,19 @@
-# Python-generated files
+# Python virtual environment
+.venv/
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.pyc
+.pytest_cache/
 
-# Virtual environments
-.venv
+# Credentials
+.env
+.env.*
+
+# Local datasets
+data/raw/
+
+# Spark artifacts
+spark-warehouse/
+checkpoints/
+
+# Logs
+*.log
