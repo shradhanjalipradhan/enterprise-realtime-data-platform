@@ -9,7 +9,7 @@ services:
       POSTGRES_DB: ecommerce
     command: ["postgres", "-c", "wal_level=logical"]
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
